@@ -15,6 +15,7 @@
 		C290102A1FD2A3BD00579C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29010281FD2A3BD00579C0F /* LaunchScreen.storyboard */; };
 		C29010351FD2A3BD00579C0F /* ConvertlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29010341FD2A3BD00579C0F /* ConvertlyTests.swift */; };
 		C29010401FD2A3BD00579C0F /* ConvertlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C290103F1FD2A3BD00579C0F /* ConvertlyUITests.swift */; };
+		C290104F1FD2A3D400579C0F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C290104E1FD2A3D400579C0F /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C290103B1FD2A3BD00579C0F /* ConvertlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C290103F1FD2A3BD00579C0F /* ConvertlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertlyUITests.swift; sourceTree = "<group>"; };
 		C29010411FD2A3BD00579C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C290104E1FD2A3D400579C0F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C290104F1FD2A3D400579C0F /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				C29010331FD2A3BD00579C0F /* ConvertlyTests */,
 				C290103E1FD2A3BD00579C0F /* ConvertlyUITests */,
 				C290101A1FD2A3BD00579C0F /* Products */,
+				C290104D1FD2A3D400579C0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				C29010411FD2A3BD00579C0F /* Info.plist */,
 			);
 			path = ConvertlyUITests;
+			sourceTree = "<group>";
+		};
+		C290104D1FD2A3D400579C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C290104E1FD2A3D400579C0F /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
